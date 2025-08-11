@@ -8,7 +8,6 @@ fn main() {
 
     let secret_number = rand::rng().random_range(1..=100);
     
-    println!("The secret number is {secret_number}!"); // Remove for prod
 
     loop {
         println!("Please input your guess.");
